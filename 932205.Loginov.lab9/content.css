@@ -1,0 +1,50 @@
+table{
+	border: solid DodgerBlue 4px;
+	padding: 10px;
+	margin:50px auto;
+	z-index:0;
+}
+td{
+	width:70px;
+	height:70px;
+	padding:3px;
+}
+button{
+	text-align:middle;
+	font-size: xx-large;
+	height:100%;
+	width:100%;
+	border:2px solid Silver;
+	outline-color:DodgerBlue;
+}
+
+.numberline{
+	border:1px solid black;
+	height:50px;
+	width:380px;
+	position:relative;
+	overflow-x: auto;
+}
+.grayNumb{
+	height:50px;
+	width:auto;
+	font-size: xx-large;
+	color:Silver;
+	position:absolute;
+	right:0px;
+	white-space: nowrap;
+	
+}
+.blackNumb{
+	height:50px;
+	width:auto;
+	float:right;
+	font-size: xx-large;
+	color:black;
+}
+.fullStrButton{
+	margin-top: 10px;
+}
+.infoButton{
+	margin-top: 10px;
+}
